@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  appearance: none;        /* ←これが超重要 */
+  -webkit-appearance: none;
+
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+} 
+
+
+button:hover {
+  background-color: #45a049;
+}
+/* button {
+  appearance: none;
+  background-color: red;
+  color: yellow;
+  font-size: 20px;
+} */
