@@ -36,7 +36,8 @@ const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "%Tzk526fXL0911",
-  database: "kakeibo"
+  database: "kakeibo",  //DB名
+  timezone: "+09:00"  //タイムゾーン設定
 });
 
 //DBの取得
