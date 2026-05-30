@@ -1,0 +1,21 @@
+{
+  "name": "kakeibo-app",
+  "version": "1.0.0",
+  "description": "Node.js + MySQL を使用して作成した家計簿アプリです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiammyg46-ship-it/kakeibo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kiammyg46-ship-it/kakeibo-app/issues"
+  },
+  "homepage": "https://github.com/kiammyg46-ship-it/kakeibo-app#readme"
+}
