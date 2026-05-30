@@ -1,12 +1,10 @@
 const express = require("express");
 const app = express();
 
-// app.get("/", (req, res) => {
-//   res.send("家計簿アプリ起動！");
-// });
+const PORT = process.env.PORT || 3000;  //環境変数PORTが設定されていればそれを使用、なければ3000を使用
 
-app.listen(3000, () => {
-  console.log("Server running on port 3000");
+app.listen(PORT, () => {  //サーバー起動
+  console.log(`Server running on port ${PORT}`);  //サーバーが起動したらコンソールにメッセージを表示
 });
 
 app.use(express.json());
