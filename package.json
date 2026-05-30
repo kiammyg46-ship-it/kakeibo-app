@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/kiammyg46-ship-it/kakeibo-app/issues"
   },
-  "homepage": "https://github.com/kiammyg46-ship-it/kakeibo-app#readme"
+  "homepage": "https://github.com/kiammyg46-ship-it/kakeibo-app#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.22.4"
+  }
 }
